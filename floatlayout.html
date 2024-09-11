@@ -19,6 +19,27 @@
             padding: 30px 10px;
             text-align: center;
         }
+        nav{
+            padding: 10px;
+        }
+        main>div{
+            float: left;
+            padding: 200px 10px;
+        }
+        main::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .col1, .col3{
+            width: 15%;
+        }
+        .col2 {
+            width: calc(70% - 20px);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
     </style>
 </head>
 
